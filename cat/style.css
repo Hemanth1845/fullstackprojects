@@ -1,0 +1,215 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #c9d2fc;
+}
+
+.cat-head {
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: linear-gradient(#5e5e5e 85%, #45454f 100%);
+  width: 205px;
+  height: 180px;
+  border: 1px solid #000;
+  border-radius: 46%;
+}
+
+.left-ear {
+  position: absolute;
+  top: -26px;
+  left: -31px;
+  z-index: 1;
+  border-top-left-radius: 90px;
+  border-top-right-radius: 10px;
+  transform: rotate(-45deg);
+  border-left: 35px solid transparent;
+  border-right: 35px solid transparent;
+  border-bottom: 70px solid #5e5e5e;
+}
+
+.right-ear {
+  position: absolute;
+  top: -26px;
+  left: 163px;
+  z-index: 1;
+  transform: rotate(45deg);
+  border-top-left-radius: 90px;
+  border-top-right-radius: 10px;
+  border-left: 35px solid transparent;
+  border-right: 35px solid transparent;
+  border-bottom: 70px solid #5e5e5e;
+  
+}
+
+.left-inner-ear{
+   position: absolute;
+   top: 8px;
+    right: -18px;
+    z-index: 1;
+     transform: rotate(0deg);
+     border-top-left-radius: 20%;
+  border-top-right-radius: 20%;
+    border-top: 20px solid transparent;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 35px solid #6a4747;
+     border-bottom-left-radius: 40%;
+  border-bottom-right-radius: 40%;
+    
+}
+
+.right-inner-ear{
+   position: absolute;
+   top: 8px;
+    right: -18px;
+    z-index: 1;
+     transform: rotate(0deg);
+     border-top-left-radius: 20%;
+  border-top-right-radius: 20%;
+    border-top: 20px solid transparent;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 35px solid #6a4747;
+     border-bottom-left-radius: 40%;
+  border-bottom-right-radius: 40%;
+    
+}
+
+.left-eye{
+    position: absolute;
+    top:50px;
+    left: 45px;
+    width: 20px;
+    height: 35px;
+    border: 2px solid transparent;
+    border-radius: 60%;
+    background-color: black;
+    transform: rotate(25deg);
+
+}
+
+.right-eye{
+    position: absolute;
+    top:50px;
+    right: 45px;
+    width: 20px;
+    height: 35px;
+    border: 2px solid transparent;
+    background-color: black;
+    border-radius: 60%;
+    transform: rotate(-10deg);
+}
+
+.inner-left-eye{
+    position: absolute;
+    width: 10px;
+    height: 20px;
+    border: 2px solid transparent;
+    background-color: white;
+    border-radius: 60%;
+
+
+}
+
+.inner-right-eye{
+    position: absolute;
+    width: 10px;
+    height: 20px;
+    border: 2px solid transpare;
+    background-color: white;
+    border-radius: 60%;
+}
+
+.nose{
+    position: absolute;
+    top: 100px;
+    left: 93px;
+    transform: rotate(180deg);
+    border-top: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid brown;
+}
+
+.mouth div {
+  width: 30px;
+  height: 50px;
+  border: 2px solid #000;
+  border-radius: 190%/190px 150px 0 0;
+  border-color: black transparent transparent transparent;
+}
+
+.left-mouth {
+  position: absolute;
+  top: 88px;
+  left: 80px;
+  transform: rotate(170deg);
+}
+
+.right-mouth {
+  position: absolute;
+  top: 88px;
+  left: 97px;
+  transform: rotate(165deg);
+}
+
+
+.cat-whiskers-left div {
+  width: 40px;
+  height: 1px;
+  background-color: #000;
+}
+
+.cat-whiskers-right div {
+  width: 40px;
+  height: 1px;
+  background-color: #000;
+}
+
+.cat-whisker-left-top {
+  position: absolute;
+  top: 120px;
+  left: 52px;
+  transform: rotate(10deg);
+}
+
+.cat-whisker-left-middle {
+  position: absolute;
+  top: 127px;
+  left: 52px;
+  transform: rotate(3deg);
+}
+
+.cat-whisker-left-bottom {
+  position: absolute;
+  top: 134px;
+  left: 52px;
+  transform: rotate(-3deg);
+}
+
+.cat-whisker-right-top {
+  position: absolute;
+  top: 120px;
+  left: 109px;
+  transform: rotate(-10deg);
+}
+
+.cat-whisker-right-middle {
+  position: absolute;
+  top: 127px;
+  left: 109px;
+  transform: rotate(-3deg);
+}
+
+.cat-whisker-right-bottom {
+  position: absolute;
+  top: 134px;
+  left: 109px;
+  transform:rotate(3deg);
+}
